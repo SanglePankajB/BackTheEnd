@@ -1,0 +1,19 @@
+- With Jasmine you can perform unit testing in your code
+- Unit testing --> done by developers to test whether the small module or function they've developed is working correctly or not
+- 
+
+
+
+
+
+
+
+
+
+
+./ represents the current directory.
+../ represents the parent directory.
+../../ represents the parent's parent directory, and so on.
+
+
+

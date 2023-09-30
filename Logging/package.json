@@ -1,0 +1,14 @@
+{
+  "name": "logging",
+  "version": "1.0.0",
+  "description": "Demo for logging and How the logs are saved",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.10.0"
+  }
+}

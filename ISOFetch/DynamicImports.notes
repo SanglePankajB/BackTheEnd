@@ -1,0 +1,11 @@
+when you want to reduce initial load time we use dynamic imports 
+dynamic imports return Promises
+typically use .then() or async/await to work with the imported module after it has been loaded
+
+
+node-fetch as an ESM Package:
+The node-fetch package is designed as an ECMAScript module (ESM). In other words, it uses the import and export syntax rather than CommonJS require and module.exports.
+
+
+
+Dynamic imports are a feature in JavaScript that allow you to load modules or code dynamically at runtime, instead of importing them all at the beginning of a script. They are introduced through the import() function, which returns a Promise that resolves to the imported module.

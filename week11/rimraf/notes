@@ -1,0 +1,15 @@
+It is not package to use in js file
+it is commandline packae that is alternative for rm command
+It deletes files recursively
+
+For that :
+YOu have to download it as the global package  npm i -g rimraf
+
+now you can delete files and directories in your project
+
+In curr folder I create 
+                1. filetodel --> file
+                2. dirtodel --> folder
+                which i deleted using terminal commands:
+                    1. rimraf ./filetodel
+                    2. rimraf ./dirtodel

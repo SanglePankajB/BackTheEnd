@@ -1,0 +1,9 @@
+1st of all -->  To use faker you need to install faker as  npm install @faker-js/faker --save-dev 
+                not like npm i faker --> it gives problems while importing
+
+
+You dont need to initialize node project to do use faker
+
+
+
+You import it only like  -> const { faker } = require('@faker-js/faker');   otherwise give errors

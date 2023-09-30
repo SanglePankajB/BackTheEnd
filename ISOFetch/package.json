@@ -1,0 +1,16 @@
+{
+  "name": "isofetch",
+  "version": "1.0.0",
+  "description": "it refers to the practice of using the standard fetch API in a way that works consistently across different JavaScript environments, such as browsers and Node.js.",
+  "main": "Iso.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

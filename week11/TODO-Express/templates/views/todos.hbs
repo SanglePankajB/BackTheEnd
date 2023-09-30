@@ -1,0 +1,22 @@
+{{!-- File renders all todos in the array  --}}
+{{!-- Use of header and navbar partial to keep code small (reusability) --}}
+{{>header}}
+{{>navbar}}
+
+<div class="container mt-4">       {{!-- margine-top --}}
+{{!-- Syntax of Partial to iterate over array elements --}}
+    {{#each tasks}}
+    <div class="row">
+        <div class="col-md-4">
+            <h3>{{this.id}}. {{this.title}}</h3>
+        </div>
+        {{!-- Delete Btn  --}}
+        <div class="col-md-8">
+            {{!-- By default form tag supports only GET and POST methods so using methodOverride('_method') middleware we override POST method to DELETE method --}}
+            <form method="POST" action="/tasks/delete/{{this.id}}?_method=DELETE">
+                <button type="submit" class="delete-button">Delete</button>
+            </form>
+        </div>
+    </div>
+    {{/each}}
+</div>

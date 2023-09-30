@@ -1,0 +1,16 @@
+{
+  "name": "istanbul-jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "nyc": "^15.1.0"
+  }
+}

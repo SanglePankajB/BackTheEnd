@@ -1,0 +1,5 @@
+in packsge.json if you configure script
+like "scripts": {
+    "start": "node App.js"          
+  },
+  whenever we run npm start above command will run

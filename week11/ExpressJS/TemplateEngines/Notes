@@ -1,0 +1,10 @@
+You have to follow the dir structure for working with template engines
+You need to have your .hbs files in views
+But
+if you want to change the default name views dir you can do it with app.set('views', 'newpath') this way see index.js file for more
+
+IMP : whenever we are working with template engines rather than res.send() we have to write res.render()
+---> app.get('/', (req, res) =>{
+    res.render('index')
+})
+

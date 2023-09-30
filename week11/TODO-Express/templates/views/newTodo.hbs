@@ -1,0 +1,17 @@
+{{!-- File renders a form to add todo to our list  --}}
+{{!-- Use of header and navbar partial to keep code small (reusability) --}}
+{{>header}}
+{{>navbar}}
+
+<div class="container mt-4 d-flex justify-content-center">
+    <h1>Add TO-DO</h1>
+</div>
+
+
+<div class="container mt-4 d-flex justify-content-center">
+    <form method="POST" action="/tasks/add">
+     {{!-- data entered in the field name will be associated with the name "title." --}}
+        <input type="text" id="title" name="title" placeholder="Enter Your Todo" required />
+        <button type="submit">Add</button>
+    </form>
+</div>
